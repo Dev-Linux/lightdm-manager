@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Alexandros Mouhtsis <alexandros@gnugr.org>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: lightdm-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-02 12:40+0100\n"
+"PO-Revision-Date: 2016-04-01 01:35+0000\n"
+"Last-Translator: Alexandros Mouhtsis <alexandros@gnugr.org>\n"
+"Language-Team: Greek (http://www.transifex.com/solydxk/lightdm-manager/"
+"language/el/)\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:68
+#: ../usr/share/kde4/services/kcm_lightdm_manager.desktop.in.h:1
+#: ../usr/share/applications/lightdm-manager.desktop.in.h:2
+msgid "LightDM Manager"
+msgstr "Διαχειριστής οθόνης σύνδεσης LightDM"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:70
+msgid "Users"
+msgstr "Χρήστες"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:71
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:72
+msgid "Background"
+msgstr "Παρασκήνιο"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:73
+msgid "Theme"
+msgstr "Θέμα"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:74
+msgid "Menu"
+msgstr "Μενού"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:75
+msgid "Hide users"
+msgstr "Απόκρυψη χρηστών"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:76
+msgid "User icon"
+msgstr "Εικονίδιο χρήστη"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:77
+msgid "Auto-login"
+msgstr "Αυτόματη σύνδεση"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:193
+msgid "Select user image"
+msgstr "Επιλέξτε εικόνα χρήστη "
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:241
+msgid "LightDM settings"
+msgstr "Ρυθμίσεις LightDM"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:241
+msgid ""
+"Settings have changed\n"
+"\n"
+"Do you want to save the new settings?"
+msgstr ""
+"Οι ρυθμίσεις έχουν αλλάξει\n"
+"\n"
+"Επιθυμείτε να σώσετε τις νέες ρυθμίσεις?"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:292
+msgid "Saved"
+msgstr "Αποθηκεύτηκε"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:292
+msgid "LightDM settings saved successfully."
+msgstr "Οι ρυθμίσεις του LightDM αποθηκεύτηκαν επιτυχώς."
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:296
+msgid "Choose background image"
+msgstr "Επιλέξτε εικόνα παρασκηνίου"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:299
+#, python-format
+msgid "New background: %(bg)s"
+msgstr "Νεό παρασκήνιο: %(bg)s"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:321
+#, python-format
+msgid "Auto-login user selected: %(usr)s"
+msgstr "Επιλέχθηκε ο χρήστης τής αυτόματης σύνδεσης: %(usr)s"
+
+#: ../usr/lib/lightdm-manager/user.py:253
+#, python-format
+msgid "Cannot remove group '%(group)s': not empty."
+msgstr "Αδυναμία μεταφοράς ομάδας '%(group)s': δεν είναι άδειο"
+
+#: ../usr/lib/lightdm-manager/user.py:255
+#: ../usr/lib/lightdm-manager/user.py:327
+#, python-format
+msgid "The command '%(cmd)s' returned error code: %(ret)d."
+msgstr "Η εντολή  '%(cmd)s' επιστροφή σφάλμα κώδικα: %(ret)d."
+
+#: ../usr/lib/lightdm-manager/user.py:325
+#, python-format
+msgid ""
+"Cannot remove user '%(user)s': processes started by user are still running."
+msgstr ""
+"Αδυναμία μεταφορά χρήστη r '%(user)s': εξακολουθούν να εκτελούνται "
+"διεργασίες που ξεκίνησαν από το χρήστη."
+
+#: ../usr/share/kde4/services/kcm_lightdm_manager.desktop.in.h:2
+#: ../usr/share/applications/lightdm-manager.desktop.in.h:1
+msgid "Manager for LightDM"
+msgstr "Διαχειριστής για τον  LightDM"

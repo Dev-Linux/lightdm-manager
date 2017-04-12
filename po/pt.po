@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Luis Filipe Teixeira <lufilte@gmail.com>, 2015
+# Nuno Duarte <nuno.passiano@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: lightdm-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-02 12:40+0100\n"
+"PO-Revision-Date: 2015-12-11 16:58+0000\n"
+"Last-Translator: Luis Filipe Teixeira <lufilte@gmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/solydxk/lightdm-manager/"
+"language/pt/)\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:68
+#: ../usr/share/kde4/services/kcm_lightdm_manager.desktop.in.h:1
+#: ../usr/share/applications/lightdm-manager.desktop.in.h:2
+msgid "LightDM Manager"
+msgstr "Gestor LightDM"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:70
+msgid "Users"
+msgstr "Utilizadores "
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:71
+msgid "Appearance"
+msgstr "Aparência"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:72
+msgid "Background"
+msgstr "Ambiente"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:73
+msgid "Theme"
+msgstr "Tema"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:74
+msgid "Menu"
+msgstr "Menu"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:75
+msgid "Hide users"
+msgstr "Esconder utilizadores "
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:76
+msgid "User icon"
+msgstr "Ícone do utilizador"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:77
+msgid "Auto-login"
+msgstr "Login automático"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:193
+msgid "Select user image"
+msgstr "Selecionar a imagem de utilizador"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:241
+msgid "LightDM settings"
+msgstr "Configurações de LightDM"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:241
+msgid ""
+"Settings have changed\n"
+"\n"
+"Do you want to save the new settings?"
+msgstr ""
+"As configurações foram alteradas\n"
+"\n"
+"Deseja salvar as novas configurações?"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:292
+msgid "Saved"
+msgstr "Guardado"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:292
+msgid "LightDM settings saved successfully."
+msgstr "Configurações do LightDM guardadas com sucesso."
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:296
+msgid "Choose background image"
+msgstr "Escolha imagem de fundo"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:299
+#, python-format
+msgid "New background: %(bg)s"
+msgstr "Novo fundo: %(bg)s"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:321
+#, python-format
+msgid "Auto-login user selected: %(usr)s"
+msgstr "Selecionado Auto-login do utilizador: %(usr)s"
+
+#: ../usr/lib/lightdm-manager/user.py:253
+#, python-format
+msgid "Cannot remove group '%(group)s': not empty."
+msgstr "Não se pode remover o grupo '%(group)s': não está vazio."
+
+#: ../usr/lib/lightdm-manager/user.py:255
+#: ../usr/lib/lightdm-manager/user.py:327
+#, python-format
+msgid "The command '%(cmd)s' returned error code: %(ret)d."
+msgstr "O comando '%(cmd)s' retornou o código de erro: %(ret)d."
+
+#: ../usr/lib/lightdm-manager/user.py:325
+#, python-format
+msgid ""
+"Cannot remove user '%(user)s': processes started by user are still running."
+msgstr ""
+"Não se pode remover o utilizador '%(user)s': processos iniciados pelo o "
+"utilizador, estão ainda em execução."
+
+#: ../usr/share/kde4/services/kcm_lightdm_manager.desktop.in.h:2
+#: ../usr/share/applications/lightdm-manager.desktop.in.h:1
+msgid "Manager for LightDM"
+msgstr "Gestor para LightDM"

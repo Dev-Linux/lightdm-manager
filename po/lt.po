@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Moo, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: lightdm-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-02 12:40+0100\n"
+"PO-Revision-Date: 2016-07-06 08:44+0000\n"
+"Last-Translator: Moo\n"
+"Language-Team: Lithuanian (http://www.transifex.com/solydxk/lightdm-manager/"
+"language/lt/)\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:68
+#: ../usr/share/kde4/services/kcm_lightdm_manager.desktop.in.h:1
+#: ../usr/share/applications/lightdm-manager.desktop.in.h:2
+msgid "LightDM Manager"
+msgstr "LightDM tvarkytuvė"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:70
+msgid "Users"
+msgstr "Naudotojai"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:71
+msgid "Appearance"
+msgstr "Išvaizda"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:72
+msgid "Background"
+msgstr "Fonas"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:73
+msgid "Theme"
+msgstr "Tema"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:74
+msgid "Menu"
+msgstr "Meniu"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:75
+msgid "Hide users"
+msgstr "Slėpti naudotojus"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:76
+msgid "User icon"
+msgstr "Naudotojo piktograma"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:77
+msgid "Auto-login"
+msgstr "Automatinis prisijungimas"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:193
+msgid "Select user image"
+msgstr "Pasirinkite naudotojo paveikslą"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:241
+msgid "LightDM settings"
+msgstr "LightDM nustatymai"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:241
+msgid ""
+"Settings have changed\n"
+"\n"
+"Do you want to save the new settings?"
+msgstr ""
+"Nustatymai pasikeitė\n"
+"\n"
+"Ar norite įrašyti naujus nustatymus?"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:292
+msgid "Saved"
+msgstr "Įrašyta"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:292
+msgid "LightDM settings saved successfully."
+msgstr "LightDM nustatymai sėkmingai įrašyti."
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:296
+msgid "Choose background image"
+msgstr "Pasirinkite fono paveikslą"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:299
+#, python-format
+msgid "New background: %(bg)s"
+msgstr "Naujas fonas: %(bg)s"
+
+#: ../usr/lib/lightdm-manager/lightdm-manager.py:321
+#, python-format
+msgid "Auto-login user selected: %(usr)s"
+msgstr "Pasirinktas automatinio prisijungimo naudotojas: %(usr)s"
+
+#: ../usr/lib/lightdm-manager/user.py:253
+#, python-format
+msgid "Cannot remove group '%(group)s': not empty."
+msgstr "Nepavyksta pašalinti grupę \"%(group)s\": nėra tuščia."
+
+#: ../usr/lib/lightdm-manager/user.py:255
+#: ../usr/lib/lightdm-manager/user.py:327
+#, python-format
+msgid "The command '%(cmd)s' returned error code: %(ret)d."
+msgstr "Komanda \"%(cmd)s\" grąžino klaidos kodą: %(ret)d."
+
+#: ../usr/lib/lightdm-manager/user.py:325
+#, python-format
+msgid ""
+"Cannot remove user '%(user)s': processes started by user are still running."
+msgstr ""
+"Nepavyksta pašalinti naudotojo \"%(user)s\": naudotojo pradėti procesai yra "
+"vis dar vykdomi."
+
+#: ../usr/share/kde4/services/kcm_lightdm_manager.desktop.in.h:2
+#: ../usr/share/applications/lightdm-manager.desktop.in.h:1
+msgid "Manager for LightDM"
+msgstr "Tvarkytuvė, skirta LightDM"

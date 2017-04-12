@@ -1,0 +1,210 @@
+lightdm-manager (0.8.3) debian; urgency=low
+
+  * Added menu configuration
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 11 Apr 2017 12:13:14 +0200
+
+lightdm-manager (0.8.2) debian; urgency=low
+
+  * Implement xksudo
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 07 Mar 2017 18:22:28 +0100
+
+lightdm-manager (0.8.1) debian; urgency=low
+
+  * Preserve environment variables
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 02 Mar 2017 11:44:14 +0100
+
+lightdm-manager (0.8.0) debian; urgency=low
+
+  * Implement SolydXK configuration path changes
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 06 Feb 2017 11:37:23 +0100
+
+lightdm-manager (0.7.9) debian; urgency=low
+
+  * Updated translations
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 27 Jul 2016 10:07:32 +0200
+
+lightdm-manager (0.7.8) debian; urgency=low
+
+  * Updated translations
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 18 Jan 2016 18:00:00 +0100
+
+lightdm-manager (0.7.7) debian; urgency=low
+
+  * Updated translations
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 26 Nov 2015 12:00:00 +0100
+
+lightdm-manager (0.7.4) debian; urgency=low
+
+  * Solved bug: lightdm-manager crashes when background parameter is not found in lightdm.conf
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 08 Jul 2015 09:00:00 +0100
+
+lightdm-manager (0.7.3) debian; urgency=low
+
+  * Improved localization handling
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 22 June 2015 12:00:00 +0100
+
+lightdm-manager (0.7.2) debian; urgency=low
+
+  * Resolved bug reading duplicate keys
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 17 May 2015 13:00:00 +0100
+
+lightdm-manager (0.7.1) debian; urgency=low
+
+  * Added KCM launcher for System Settings
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 08 May 2015 17:00:00 +0100
+
+lightdm-manager (0.7.0) debian; urgency=low
+
+  * Added X-XFCE-SettingsDialog;X-XFCE-SystemSettings; to launcher
+  * French translation
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 06 May 2015 15:00:00 +0100
+
+lightdm-manager (0.6.9) debian; urgency=low
+
+  * Fix gettext bug
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 29 Apr 2015 18:00:00 +0100
+
+lightdm-manager (0.6.8) debian; urgency=low
+
+  * GUI changes
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 01 Jan 2015 16:00:00 +0200
+
+lightdm-manager (0.6.7) debian; urgency=low
+
+  * Improved translation handling
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 02 Nov 2014 11:00:00 +0200
+
+lightdm-manager (0.6.6) debian; urgency=low
+
+  * Changed logo for use with Evolvere icon theme
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 12 Sep 2014 15:00:00 +0100
+
+lightdm-manager (0.6.5) debian; urgency=low
+
+  * Moved locale to solydxk-locale
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 26 May 2014 08:00:00 +0100
+
+lightdm-manager (0.6.4) debian; urgency=low
+
+  * Resolved missing translations
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 21 Apr 2014 11:00:00 +0100
+
+lightdm-manager (0.6.3) debian; urgency=low
+
+  * Added Russian translation
+  * Adapted Dutch translation
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 01 Apr 2014 18:00:00 +0100
+
+lightdm-manager (0.6.1) debian; urgency=low
+
+  * Added Czech translation
+  * Adapted Italian translation
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 24 Dec 2013 12:00:00 +0100
+
+lightdm-manager (0.6.0) debian; urgency=low
+
+  * Added missing dependency python3-apt
+  
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 24 Nov 2013 17:00:00 +0100
+
+lightdm-manager (0.5.9) debian; urgency=low
+
+  * Adapted French translation
+  
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 21 Oct 2013 19:00:00 +0100
+
+lightdm-manager (0.5.8) debian; urgency=low
+
+  * Change user icon
+  * Set greeter-hide-users
+  * Python3 / Gtk+
+  
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 16 Oct 2013 17:00:00 +0100
+ 
+lightdm-manager (0.1.5) debian; urgency=low
+
+  * Added Greek translation
+    provided by Stelios
+  
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 03 Oct 2013 11:00:00 +0100
+
+lightdm-manager (0.1.4) debian; urgency=low
+
+  * Added French translation
+  
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 07 Sep 2013 22:30:00 +0100
+
+lightdm-manager (0.1.3) debian; urgency=low
+
+  * Adapted for arm architecture
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 25 Jul 2013 13:00:00 +0100
+
+lightdm-manager (0.1.2) debian; urgency=low
+
+  * Added German translation
+  * Make GUI objects size with textual contents
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 12 Jun 2013 15:00:00 +0100
+
+lightdm-manager (0.1.1) debian; urgency=low
+
+  * Added Catalan translation
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 05 Jun 2013 19:00:00 +0100
+
+lightdm-manager (0.1.0) debian; urgency=low
+
+  * Moved translations to standard directory /usr/share/locale
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 06 Jun 2013 10:00:00 +0100
+
+lightdm-manager (0.0.9) debian; urgency=low
+
+  * Included Spanish and Dutch translations
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 28 May 2013 23:00:00 +0100
+
+lightdm-manager (0.0.7) debian; urgency=low
+
+  * Fixed theme selection
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 26 Mar 2013 17:00:00 +0100
+
+lightdm-manager (0.0.5) debian; urgency=low
+
+  * Include theme selection
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 26 Mar 2013 10:00:00 +0100
+
+lightdm-manager (0.0.2) debian; urgency=low
+
+  * Check if lightdm is installed
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 25 Mar 2013 23:00:00 +0100
+
+lightdm-manager (0.0.1) debian; urgency=low
+
+  * Initial version
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 25 Mar 2013 22:00:00 +0100

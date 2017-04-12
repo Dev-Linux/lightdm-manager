@@ -1,0 +1,5 @@
+?package(usb-creator):needs="X11"\
+   section="Applications/System"\
+   title="LightDM Manager"\
+   icon="lightdm-manager"\
+   command="lightdm-manager"
