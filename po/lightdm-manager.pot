@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-11 12:13+0200\n"
+"POT-Creation-Date: 2017-04-25 11:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,6 +107,16 @@ msgstr ""
 #, python-format
 msgid ""
 "Cannot remove user '%(user)s': processes started by user are still running."
+msgstr ""
+
+#: ../usr/bin/lightdm-manager:22
+#, sh-format
+msgid "needs administrative privileges."
+msgstr ""
+
+#: ../usr/bin/lightdm-manager:23
+#, sh-format
+msgid "Please enter your password."
 msgstr ""
 
 #: ../usr/share/kde4/services/kcm_lightdm_manager.desktop.in.h:2

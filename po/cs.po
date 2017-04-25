@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-02 12:40+0100\n"
+"POT-Creation-Date: 2017-04-25 11:15+0200\n"
 "PO-Revision-Date: 2013-12-24 11:13+0100\n"
 "Last-Translator: Schoelje <schoelje@solydxk.com>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
@@ -116,6 +116,16 @@ msgid ""
 "Cannot remove user '%(user)s': processes started by user are still running."
 msgstr ""
 
+#: ../usr/bin/lightdm-manager:22
+#, sh-format
+msgid "needs administrative privileges."
+msgstr ""
+
+#: ../usr/bin/lightdm-manager:23
+#, fuzzy, sh-format
+msgid "Please enter your password."
+msgstr "Zadejte prosím svoje heslo"
+
 #: ../usr/share/kde4/services/kcm_lightdm_manager.desktop.in.h:2
 #: ../usr/share/applications/lightdm-manager.desktop.in.h:1
 msgid "Manager for LightDM"
@@ -201,9 +211,6 @@ msgstr ""
 
 #~ msgid "lightdm-manager version: %(version)s"
 #~ msgstr "Verze lightdm-manageru: %(version)s"
-
-#~ msgid "Please enter your password"
-#~ msgstr "Zadejte prosím svoje heslo"
 
 #~ msgid "LightDM Manager - Live environment"
 #~ msgstr "LightDM Manager - Živé prostředí"

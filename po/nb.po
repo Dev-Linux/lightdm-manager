@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-02 12:40+0100\n"
+"POT-Creation-Date: 2017-04-25 11:15+0200\n"
 "PO-Revision-Date: 2016-01-11 18:34+0000\n"
 "Last-Translator: Anders Dalen <anders@andersdalen.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/solydxk/lightdm-"
@@ -114,6 +114,16 @@ msgid ""
 msgstr ""
 "Kan ikke fjerne bruker '%(user)s': prosesser startet av bruker kjører "
 "fortsatt."
+
+#: ../usr/bin/lightdm-manager:22
+#, sh-format
+msgid "needs administrative privileges."
+msgstr ""
+
+#: ../usr/bin/lightdm-manager:23
+#, sh-format
+msgid "Please enter your password."
+msgstr ""
 
 #: ../usr/share/kde4/services/kcm_lightdm_manager.desktop.in.h:2
 #: ../usr/share/applications/lightdm-manager.desktop.in.h:1

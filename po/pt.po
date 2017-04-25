@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lightdm-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-02 12:40+0100\n"
+"POT-Creation-Date: 2017-04-25 11:15+0200\n"
 "PO-Revision-Date: 2015-12-11 16:58+0000\n"
 "Last-Translator: Luis Filipe Teixeira <lufilte@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/solydxk/lightdm-manager/"
@@ -116,6 +116,16 @@ msgid ""
 msgstr ""
 "Não se pode remover o utilizador '%(user)s': processos iniciados pelo o "
 "utilizador, estão ainda em execução."
+
+#: ../usr/bin/lightdm-manager:22
+#, sh-format
+msgid "needs administrative privileges."
+msgstr ""
+
+#: ../usr/bin/lightdm-manager:23
+#, sh-format
+msgid "Please enter your password."
+msgstr ""
 
 #: ../usr/share/kde4/services/kcm_lightdm_manager.desktop.in.h:2
 #: ../usr/share/applications/lightdm-manager.desktop.in.h:1

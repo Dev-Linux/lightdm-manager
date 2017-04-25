@@ -384,7 +384,7 @@ class LightDMManager:
 if __name__ == '__main__':
     # Create an instance of our GTK application
     try:
-        gui = LightDMManager()
+        LightDMManager()
         Gtk.main()
     except KeyboardInterrupt:
         pass
